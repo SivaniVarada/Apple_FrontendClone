@@ -1,0 +1,188 @@
+.icon{
+    border-radius: 50%;
+}
+.bi-search{
+    min-width:2% ;
+    min-height: auto;
+}
+.bi-bag{
+    min-width:2% ;
+    min-height: auto;
+}
+.abc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    width:10%;
+    height:auto;
+    justify-content: space-around;
+}
+.navbar-toggler{
+    margin-left: 70%;
+    justify-content: end;
+}
+.firsttext{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.img1{
+    width:100%;
+    height: auto;
+}
+.space{
+    height:30px;
+    width:100%;
+    background-color: white;
+}
+.macinfo{
+    display:flex;
+    flex-direction: column;
+    background-color:#fbfbfd;
+    justify-content: center;
+    align-items: center;
+}
+.macinfo>.space{
+    background-color:#fbfbfd;
+}
+.space1{
+    background-color:#fbfbfd;
+}
+.laptop{
+    width:70vw;
+    height: auto;
+}
+.dim{
+    color:grey;
+}
+.iphone{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.iphone>.space{
+    background-color:black;
+}
+.bighead{
+    font-size: 50px;
+}
+.card{
+    border-radius:0px;
+    height: 100%;
+    background-color:#fbfbfd ;
+    padding: 10px;
+}
+.red{
+    color: red;
+}
+.watch{
+    background-color: black;
+    color: white;
+}
+.fitness{
+    background-color:#f5f5f7;
+}
+.carousel{
+    width:75vw;
+    height:auto;
+}
+footer{
+    background-color: #fbfbfd;
+    font-size: 13px;
+}
+footer>.space{
+    background-color:#fbfbfd;
+    height: 10px;
+}
+footer a{
+    text-decoration: underline;
+    color: grey;
+}
+footer ol{
+    margin-left: 0;
+    padding-left: 10px;
+}
+.footerclass{
+    width: 75vw;
+    height: auto;
+    background-color: #fbfbfd;
+    color: grey;
+}
+hr{
+    width: 100%;
+}
+.lists{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100vw;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.lists ul a{
+    text-decoration: none;
+    list-style: none;
+}
+.lists ul{
+    list-style: none;
+    /* Remove margin for all <ul>s (and padding, because different browsers have different default styles) */
+    margin-left: 0;
+    padding-left: 0;
+}
+.lists div li{
+    text-decoration: none;
+    list-style: none;
+}
+.last a{
+    text-decoration: underline;
+    color: blue;
+}
+.copyright a{
+    text-decoration: underline;
+    color: blue;
+}
+@media screen and (max-width: 700px) {
+
+    p{
+    
+    font-size: 10px;
+    
+    }
+    .firsttext p{
+        font-size: 9px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    .lists div li{
+        font-size: 10px;
+    }
+    .lists ul a{
+        font-size: 10px;
+    }
+    .navbar-toggler{
+        margin-left: 60%;
+        justify-content: end;
+    }
+    .bi-search{
+        padding-right: 5px;
+        min-width:2% ;
+        min-height: auto;
+    }
+    .bi-bag{
+        padding-right:5px ;
+        min-width:2% ;
+        min-height: auto;
+    }
+    }
